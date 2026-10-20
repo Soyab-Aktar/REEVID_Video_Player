@@ -1,6 +1,6 @@
-# REVID — Offline Short Video Player (React Native Clone)
+# REEVID — Offline Short Video Player (React Native Clone)
 
-**REVID** is a high-performance offline vertical short video player built with **React Native & Expo (TypeScript)**, meticulously cloned and reconstructed from the reverse-engineered Android APK **"Short Video.apk"** (`shortvideo.vertical.video.player`).
+**REEVID** is a high-performance offline vertical short video player built with **React Native & Expo (TypeScript)**, meticulously cloned and reconstructed from the reverse-engineered Android APK **"Short Video.apk"** (`shortvideo.vertical.video.player`).
 
 ---
 
@@ -44,41 +44,13 @@
 - **Smooth Scrolling**: Scroll animation interpolation toggle.
 - **Scale Type**: Radio selector for Center Inside vs Center Crop.
 
----
-
-## 🚀 How to Run
-
-Navigate into the `REVID` directory:
-```bash
-cd /home/soyab-aktar/Desktop/REV_APP/REVID
-```
-
-### 1. Run on Android Device / Emulator:
-```bash
-npx expo run:android
-# or with Expo Go
-npx expo start --android
-```
-
-### 2. Run in Web Browser:
-```bash
-npm run web
-# or
-npx expo start --web
-```
-Access the application at `http://localhost:8081`.
-
-### 3. Run on iOS Simulator:
-```bash
-npx expo start --ios
-```
 
 ---
 
 ## 📁 Project Architecture
 
 ```
-REVID/
+REEVID/
 ├── App.tsx                        # Root Navigation & Screen Orchestration
 ├── package.json                   # Dependencies (expo, expo-av, expo-media-library, etc.)
 └── src/
