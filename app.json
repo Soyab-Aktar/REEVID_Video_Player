@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "REEVID",
+    "slug": "REEVID",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.REVID"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-video",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow REVID to access your videos.",
+          "savePhotosPermission": "Allow REVID to save videos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-sharing"
+    ]
+  }
+}
